@@ -36,23 +36,59 @@
         },
         {
             "tag": "casual",
-            "patterns": ["I am fine", "I am good", "I am better", "It was good", "It was nice"],
+            "patterns": ["I am fine","Nice","Ok","good", "I am good", "I am better", "It was good", "It was nice"],
             "responses": [
                 "Thats good !",
                 "Thats Nice !",
-                "Oh Good !"
+                "Oh Good !",
+                ":)"
             ]
         },
         {
             "tag": "anxiety",
             "patterns": [
-                "I think I have anxiety"
+                "I think I have anxiety",
+                "I feel like anxious",
+                "I am worried",
+                "I am worried for future",
+                "I am worried about event",
+                "I am fearful"
+            ],
+            "responses": [
+                "I think you should do mindful breathing for sometime",
+                "I can suggest some cognitive technics if you want",
+                "Time will change buddy, Dont lose hope"
+              ]
+        },
+        {
+            "tag": "CBT",
+            "patterns": [
+                "Yes",
+                "Yes I would like to know some cognitive techniques",
+                "Please tell me",
+                "sure"
                 
             ],
             "responses": [
-                "" 
+                "Oh good, here it is _ first write the situation that makes you worried, depressed or anxious, Then extract negative statements from your situation. Then write mindful responses to negative thoughts. Doing this for 15 min each day you will definitely feel better :)" 
               ]
         },
+        {
+            "tag": "Refuse",
+            "patterns": [
+                "No thanks",
+                "No I dont want to know",
+                "Na Na",
+                "No"
+                
+            ],
+            "responses": [
+                "Okay",
+                "No problem",
+                "Thats ok" 
+              ]
+        },
+       
         {
             "tag": "depression",
             "patterns": [
@@ -60,7 +96,7 @@
                 "What is depression?",
                 "How do I fix my depression?",
                 "Depression",
-                "Depressed"
+                "depressed"
             ],
             "responses": [
                 "You can meditate",
@@ -73,12 +109,16 @@
             "tag": "stress",
             "patterns": [
                 "I am so exhausted",
-                "I am tired of doing study",
-                "My studies are poor",
-                "How can I work more smartly"
+                "I am tired",
+                "I feel stressed out",
+                "stress"
             ],
             "responses": [
-                ""
+                "Why buddy ?",
+                "Why you feel exhausted?",
+                "why you feel that so ?",
+                "I think you should do mindful breathing for sometime",
+                "I can suggest some cognitive technics if you want"
             ]
         }
     ]
