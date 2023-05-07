@@ -5,7 +5,7 @@ This project aims to create an AI-powered mental health therapist bot that can p
 
 ## Technologies Used
 - Python
-- TensorFlow
+- PyTorch
 - Natural Language Toolkit (NLTK)
 - Flask
 
